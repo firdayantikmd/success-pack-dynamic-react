@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'SF Pro Display Regular';
+  src: url('/assets/fonts/SF-Pro-Text-Regular.otf') format('opentype');
+}
+
+.footer {
+  padding: 4rem 2rem;
+  color: #FFFFFF;
+  background-color: #003642;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90rem; /* 1440px */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'SF Pro Display Regular';
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a:hover {
+  color: #00a572;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contact p {
+  color: #FFFFFF;
+  font-family: 'SF Pro Display Regular';
+  font-size: 18px;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.footer-bottom p {
+  margin: 1rem;
+  color: #FFFFFF;
+  font-family: 'SF Pro Display Regular';
+  font-size: 15px;
+}

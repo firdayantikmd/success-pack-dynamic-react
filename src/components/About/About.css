@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'SF Pro Display Semi Bold';
+  src: url('/assets/fonts/SF-Pro-Text-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SF Pro Display Ultra Light';
+  src: url('/assets/fonts/SF-Pro-Text-Ultralight.otf') format('opentype');
+}
+
+.about {
+  padding: 4rem 2rem;
+  background-color: #003642;
+}
+
+.about-content {
+  max-width: 90rem;
+  position: relative;
+  padding: 2rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.about-content h4 {
+  font-family: 'SF Pro Display Semi Bold';
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.about-content p {
+  font-family: 'SF Pro Display Ultra Light';
+  font-size: 20px;
+  color: #D2D2D2;
+}

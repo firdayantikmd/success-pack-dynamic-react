@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'SF Pro Display Semi Bold';
+  src: url('/assets/fonts/SF-Pro-Text-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SF Pro Display Regular';
+  src: url('/assets/fonts/SF-Pro-Text-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SF Pro Display Ultra Light';
+  src: url('/assets/fonts/SF-Pro-Text-Ultralight.otf') format('opentype');
+}
+
+.our-products {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #FFFFFF;
+}
+
+.our-products h2 {
+  font-family: 'SF Pro Display Semi Bold';
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+
+.our-products p {
+  font-family: 'SF Pro Display Ultra Light';
+  font-size: 20px;
+  margin-bottom: 2rem;
+  color: #474747;
+}
+
+.product-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90rem;
+  justify-content: space-between;
+  gap: 2rem;
+  position: relative;
+  padding: 2rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.product-content img {
+  flex: 1 1 70%;
+  max-width: 70%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.content-card {
+  flex: 1 1 20%;
+  background-color: #D9E3E6;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-card span {
+  font-family: 'SF Pro Display Regular';
+  font-size: 18px;
+  color: #00A58A;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-card h4 {
+  font-family: 'SF Pro Display Semi Bold';
+  font-size: 20px;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.content-card p {
+  font-family: 'SF Pro Display Ultra Light';
+  font-size: 16PX;
+  color: #474747;
+}

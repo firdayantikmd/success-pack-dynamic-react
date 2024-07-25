@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'SF Pro Display Semi Bold';
+  src: url('/assets/fonts/SF-Pro-Text-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SF Pro Display Ultra Light';
+  src: url('/assets/fonts/SF-Pro-Text-Ultralight.otf') format('opentype');
+}
+
+.our-company {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #FFFFFF;
+}
+
+.our-company h2 {
+  font-family: 'SF Pro Display Semi Bold';
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+
+.our-company p {
+  font-family: 'SF Pro Display Ultra Light';
+  font-size: 20px;
+  margin-bottom: 2rem;
+  color: #474747;
+}
+
+.company-content {
+  max-width: 90rem;
+  position: relative;
+  padding: 2rem 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+  gap: 2rem;
+}
+
+.company-content img {
+  width: 100%;
+  height: 500px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the entire area */
+  border-radius: 10px;
+}
